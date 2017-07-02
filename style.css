@@ -1,10 +1,28 @@
-body {
-	text-align: center;
-	font-family: sans-serif;
-	width: 100%;
+.container{
+	width: 80%;
+	margin: 0 10%;
+}
+.main-head{
+	background-color: #f6f;
+}
+.logo{
+	content: '';
+	background: url(./img/Drawing.png); 
+	float: left;
+	padding-top: 10px;
+}
+.nav-bar{
+	float: right;
 
 }
 
-.info{
-	color: blue;
+.nav-bar ul li{
+	float: left;
+	margin-right: 10px;
+	text-decoration: none;
+	list-style: none;
+
+}
+.main-content{
+	clear: both;
 }
